@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"href="Images/lo.png"type="image/png/>">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="background: orchid;">
+    <header>
+               <div class="logo"> 
+            <img src="Images/lo.png"  width="60px">
+        <h1>HOTEL TRIANGLE</h1>
+        </div>
+        <div class="nav"> 
+            <a href="home.html">HOME</a>
+            <a href="about us.html">ABOUT US 
+                <ul>
+                    <li>LOCATION</li>
+                    <li>VISION</li>
+                    <li>MISSION</li>
+                    <li>US TODAY</li>
+                </ul>
+            </a>
+            <a href="services.html">SERVICES
+                <ul>
+                    <li>Accommodation</li>
+                    <li>Travel tours</li>
+                    <li>Bar & Restuarant</li>
+                    <li>Comference center</li>
+                    <li>And many more...</li>
+                </ul>
+            </a>
+            <a href="contact.html">CONTACT
+                <ul>
+                    <li>CALL US</li>
+                    <li>EMAIL US</li>
+                    <li>VISIT US</li>
+                    </ul>
+                    </a>
+
+                     <a href="portfolio.html">PORTFOLIO</a>
+                    </div>
+    </header>
+    <div class="main">
+ 
+ <div class="slideshow-container">
+
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="Images/555.jpg" style="width:100% ; height: 500px;">
+      <div class="text" style="color: red; font-size: 20px">Welcome to HOTEL TRIANGLE, Your Comfort Destination</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="Images/666.jpg" style="width:100%; height: 500px;">
+      <div class="text"style="color: red; font-size: 20px">"Welcome to HOTEL TRIANGLE, Your Comfart Destination,located in MBARARA,KAKOBA DIVISION opposite COCACOLA DEPORT!"</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="Images/111.jpg" style="width:100%;  height: 500px;">
+      <div class="text" style="color: red; font-size: 20px"> "We offer quality services and comfartibility. We look forward to welcoming you!"</div>
+    </div>
+  
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <script>
+
+    function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+   let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display= "block";
+  setTimeout(showSlides, 6000); // Change image every 2 seconds
+}
+  </script>
+    </div>
+
+    <h2 class="prod-h2">WE OFFER YOU</h2>
+       <div class="row">
+        <div class="row-1">
+            <img src="Images/room.webp">
+            <p style="font-weight: bold;font-size: 20px;font-family: algerian;color: blue">Accommodation</p>
+            <strong></strong>
+        </div>
+        <div class="row-1">
+            <img src="Images/hall.jpg">
+            <p style="font-weight: bold;font-size: 20px;font-family: algerian;color: blue">Conference Hall</p>
+            <strong></strong>
+        </div>
+       
+        <div class="row-1">
+            <img src="Images/bar.jpg">
+            <p style="font-weight: bold;fo-size: 20px;font-family: algerian;color: blue">Bar</p>
+            <strong></strong>
+        </div>
+        <div class="row-1">
+            <img src="Images/food.jpg">
+            <p style="font-weight: bold;font-size: 20px;font-family: algerian;color: blue">Restuarant</p>
+            <strong></strong>
+        </div>
+        <div class="row-1">
+            <img src="Images/444.webp">
+            <p style="font-weight: bold;font-size: 20px;font-family: algerian;color: blue">Travel Tours</p>
+            <strong></strong>
+        </div>
+       </div>
+        <h2 class="prod-h2">Location,Vision And Mission</h2>
+        <p style="font-weight: bold;font-size: 20px;color: blue;text-align: center;">Location</p>
+        <strong>Hotel Triangle Mbarara is located in the heart of western Uganda along the Mbarara Masaka Highway. An extremely charming, quiet and lively atmosphere overlooking hilly terrain of Mbarara.On entering this charming hotel, you will immediately sense its special intimate luxurious atmosphere. Each detail has been passionately chosen and each room deserves a visit.The special charm and cozy mood of the hotel Triangle Mbarara will make you feel at home.</strong>
+             <p style="font-weight: bold;font-size: 20px;color: blue;text-align: center;">Vision</p>
+             <strong>"Our vision is to be the leading hotel in our region, known for our commitment to quality, customer satisfaction, and community engagement."</strong>
+        
+
+             <p style="font-weight: bold;font-size: 20px;color: blue;text-align: center;">Mission</p>
+             <strong>"Our mission is to provide our guests with a comfortable, relaxing, and enjoyable experience, with exceptional service and amenities."</strong>
+         </div>
+        
+        
+         
+   
+        
+       </div>
+       <h2 class="prod-h2">WORKERS</h2>
+       <div class="row">
+        <div class="row-1">
+            <img src="Images/aaa.jpg">
+            <p>Mr.Alpha Alphonce</p>
+            <strong>Director</strong>
+        </div>
+        <div class="row-1">
+            <img src="Images/me.jpg">
+            <p>MANAGER</p>
+            <strong>Mr. Innocent Najuna</strong>
+        </div>
+       
+        <div class="row-1">
+            <img src="Images/sta.jpg">
+            <p>STAFF</p>
+            <strong>Waiters & Waitresses</strong>
+        </div>
+        <div class="row-1">
+            <img src="Images/reception.webp">
+            <p>RECEPTION</p>
+            <strong>Receptionist</strong>
+        </div>
+        <div class="row-1">
+            <img src="Images/555.jpg">
+            <p>MAIN BUILDING</p>
+            <strong>Building</strong>
+        </div>
+        
+  
+       
+      </div>
+
+       
+       
+    
+    <footer>
+        <div class="footer-menu"> 
+            <div class="ht"> 
+                <h1>Follow us</h1>
+                <ul>
+                    <li> <span><img src="Images/iconfb.png" width="20px"><p>Facebook</p></span></li>
+                    <li> <span><img src="Images/icontwi.png"width="20px" > <p>Twitter</p></span></li>
+                    <li><span><img src="Images/iconyt.png"width="20px" > <p>Youtube</p></span></li>
+                    <li> <span><img src="Images/iconinsta.png" width="20px"><p>Instagram</p></span>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="ht"> 
+                <H1>Useful links</H1>
+                <ul>
+                    <li><a href="about us.html">About us</a> </li>
+                    <li><a href="services.html"> services</a></li>
+                    <li> <a href="contact.html">help center</a></li>
+
+
+                </ul>
+
+            </div>
+            <div>  
+
+            </div>
+            <div class="ht"> 
+                <h1>Get in touch with us</h1>
+                <ul>
+                    <li> <a href="contact.html">Call us</a></li>
+                    <li> <a href="contact.html">Message us</a></li>
+                    <li><a href="contact.html">Email us</a> </li>
+                </ul>
+            </div>
+            <div class="ht">
+                <h1></h1>
+                <ul>
+                    <li> <a href="services.html"></a></li>
+                    <li> <a href="services.html">+256 760 608 958</a></li>
+                    <li> <a href="services.html">+256 740 341 672</a></li>
+                    <li> <a href="services.html">info@hoteltriangle.co.ug</a></li>
+                </ul>
+            </div>
+        </div>
+    <hr style="width: 90%; height: 2px; margin: auto;">
+    <center><p style="color: white; padding-top: 20px;">@Hotel triangle copy 2024</p></center>
+    </footer>
+
+</body>
+</html>
